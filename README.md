@@ -1,7 +1,7 @@
 # Review based recommendation System</br>(encore final project 22.04.06 ~ 22.04.29)
 
 ## Abstract
-We wanted to create a recommendation system based on review data of books sold on Amazon. 
+We wanted to create a recommendation system based on review data of books sold on Amazon.  
 I was responsible for building a recommendation model in this project. (All the process was done on aws)  
 
 (The figure below is the data flow)
