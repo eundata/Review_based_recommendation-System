@@ -2,8 +2,8 @@
 
 ## Abstract
 We wanted to create a recommendation system based on review data of books sold on Amazon.  
-The reason for adding review scores to the recommendation system was based on the evidence in several papers that review scores increase accuracy.
-<a href="papers">https://github.com/eundata/Recommendation-System/blob/main/papaers</a>
+The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers">several papers</a> that review scores increase accuracy.
+
 
 <Referenced papers>
 Chen, X. Lv, J. Gou.(2020). Personalized Recommendation Model:  An Online CommentSentiment Based AnalysisS.  
