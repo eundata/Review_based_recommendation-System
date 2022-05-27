@@ -2,7 +2,7 @@
 
 ## Abstract
 We wanted to create a recommendation system based on review data of books sold on Amazon.  
-The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers">several papers</a> that review scores increase accuracy.
+The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers.md">several papers</a> that review scores increase accuracy.
 
 
 <Referenced papers>
