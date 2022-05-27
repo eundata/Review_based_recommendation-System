@@ -2,14 +2,7 @@
 
 ## Abstract
 We wanted to create a recommendation system based on review data of books sold on Amazon.  
-The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers.md">several papers</a> that review scores increase accuracy.
-
-
-<Referenced papers>
-Chen, X. Lv, J. Gou.(2020). Personalized Recommendation Model:  An Online CommentSentiment Based AnalysisS.  
-Youdong Yun, Danial Hooshyar, Jaechoon Jo, Heuiseok Lim.(2017). Developing a hybrid collaborative filtering recommendation system with opinion mining on purchase review
-Hongyan Li, Jun He, Tingting Wang, Wenting Song, Xiaoyang Du. (2013). Combining user preferences and user opinions for accurate recommendation  
-
+The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers.md">several papers</a> that review scores increase accuracy.  
 I was responsible for building a recommendation model in this project. (All the process was done on aws)  
 This article describes only the part I performed  
 
