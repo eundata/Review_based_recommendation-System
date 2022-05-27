@@ -1,9 +1,7 @@
 # Review based recommendation System</br>(encore final project 22.04.06 ~ 22.04.29)
 
 ## Abstract
-We wanted to create a recommendation system based on review data of books sold on Amazon.  
-The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers.md">several papers</a> that review scores increase accuracy.  
-I was responsible for building a recommendation model in this project. (All the process was done on aws)  
+We wanted to create a recommendation system based on review data of books sold on Amazon. The reason for adding review scores to the recommendation system was based on the evidence in <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers.md">several papers</a> that review scores increase accuracy. I was responsible for building a recommendation model in this project. (All the process was done on aws)  
 This article describes only the part I performed  
 
 (The figure below is the data flow and tools)
