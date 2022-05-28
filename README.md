@@ -12,4 +12,6 @@ This article describes only the part I performed
 - Review data is applied to the recommendation system after sentiment analysis using the BERT model and scoring.  
 
 First, we obtained information of which books that users are interested in through membership registration. In the membership registration, users are given a list of 30 books with many reviews and are asked to choose about 5 of their favorite books. Then, using the <a href='https://github.com/eundata/Recommendation-System/blob/main/Cosine_Similarity.py'>cosine similarity</a>, a book with a high similarity to the book selected by the user is recommended.  
+<u>Why use cosine similarity?</u>
+
 
