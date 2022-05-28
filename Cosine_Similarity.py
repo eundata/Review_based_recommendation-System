@@ -7,7 +7,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 df = pd.read_json('Books.json' ,lines=True)
 df_Data = pd.DataFrame(df, columns=['asin', 'overall', 'reviewerID', 'reviewText'])
 df_Data.index=df_Data.index+1
-df_Data.head(30)
 
 # Books with less than 4 reviews are deleted. Because I think a book with too few reviews is meaningless.
 for x in df_Data.asin.unique():
@@ -22,7 +21,6 @@ df_Data_cosine = df_Data.pivot_table('overall', index='asin', columns='reviewerI
 df_Data_cosine.fillna(0, inplace=True)
 df_Data_cosine = df_Data_cosine.astype('float32')
 cosine_out = cosine_similarity(df_Data_cosine)
-cosine_out
 
 # Top 10 Books with High Cosine Similarity
 similarity_rate_df = pd.DataFrame(
