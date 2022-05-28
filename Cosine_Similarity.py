@@ -29,10 +29,10 @@ similarity_rate_df = pd.DataFrame(
     data = cosine_out,
     index = df_Data_cosine.index,
     columns = df_Data_cosine.index)
-def recommand_system_10(user_id):
+def recommand_system_10(book_id):
     print("neighbor 10")
-    a_user_id = similarity_rate_df[user_id].sort_values(ascending=False)[1:11]
-    print(a_user_id)
+    a_book_id = similarity_rate_df[book_id].sort_values(ascending=False)[1:11]
+    print(a_book_id)
     
 # Recommendation result value for book 'B00005N7P0'   
 recommand_system_10('B00005N7P0')
