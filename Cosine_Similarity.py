@@ -4,7 +4,11 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
 # The following is coded to load a file in s3 of aws.
-df = pd.read_json('Books.json' ,lines=True)
+bucket='dice-books'
+data_key = 'Magazine_Subscriptions.json'
+data_location = 's3://dice-books/Magazine_Subscriptions.json'.format(bucket, data_key)
+
+df = pd.read_json(data_location ,lines=True)
 df_Data = pd.DataFrame(df, columns=['asin', 'overall', 'reviewerID', 'reviewText'])
 df_Data.index=df_Data.index+1
 
