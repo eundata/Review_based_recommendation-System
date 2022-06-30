@@ -17,7 +17,7 @@ This article describes only the part I performed
 
 First, we use the <a href = "https://colab.research.google.com/drive/1j4qpfaBtCnoRwC_VTW5u0XFrMRjHdsDL?usp=sharing#scrollTo=VUcT9DxGkdEd">BERT</a> to give a score for the review. Scores range from 1 to 5 points. Then, after averaging the user-given score and review score, the final score is made. After that, the model is trained with the final score to make the ALS model.
 
-Second, through membership registration, we obtained information of which books that users are interested in. In the membership registration, users are given a list of 30 books with many reviews and are asked to choose about 5 of their favorite books. Then, using the <a href='https://github.com/eundata/Recommendation-System/blob/main/Cosine_Similarity.py'>cosine similarity</a>, a book with a high similarity to the book selected by the user is recommended.  
+Second, through membership registration, we obtained information of which books that users are interested in. In the membership registration, users are given a list of 30 books with many reviews and are asked to choose about 3 of their favorite books. Then, using the <a href='https://github.com/eundata/Recommendation-System/blob/main/Cosine_Similarity.py'>cosine similarity</a>, a book with a high similarity to the book selected by the user is recommended.  
 <details>
   <summary><b>Why use cosine similarity?</b></summary>
 
