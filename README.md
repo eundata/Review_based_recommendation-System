@@ -30,4 +30,4 @@ We plan to use the ALS recommendation model for UBCF. However, the cosine simila
 So, the book is recommended as shown in the picture below.
 ![화면 캡처 2022-05-29 162503](https://user-images.githubusercontent.com/96279383/177165927-1d29ca4e-ed31-4ff9-9771-ccece4ba05f3.png)
 
-Finally, the user's activity log is accumulated in the database, after which it is recommended as an <a href="https://github.com/eundata/Recommendation-System/blob/main/papaers.md">ALS recommendation model.</a>
+Finally, the user's activity log is accumulated in the database, after which it is recommended as an <a href="ALS_recommendation_model.py">ALS recommendation model.</a>
