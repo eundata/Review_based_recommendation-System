@@ -129,4 +129,5 @@ def top_movies(reviewerID_new, n):
     
     return final_recommendations.show(n, truncate=False)
 
-top_movies(7382.0, 5)
+# sample user number is 7382.0
+# top_movies(7382.0, 5)
