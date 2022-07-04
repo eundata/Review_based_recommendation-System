@@ -19,8 +19,8 @@ from pyspark.ml.evaluation import RegressionEvaluator
 # The following is coded to load a file in s3 of aws.
 
 bucket='dice-books'
-data_key = 'df2022-05-20.csv'
-data_location = 's3://dice-books/df2022-05-20.csv'.format(bucket, data_key)
+data_key = 'Books_data_2022_05_20.csv'
+data_location = 's3://dice-books/Books_data_2022_05_20.csv'.format(bucket, data_key)
 pandasdf = pd.read_csv(data_location, lines=True)
 pandasdf = pandasdf[['reviewerID', 'asin', 'composite_score']]
 
