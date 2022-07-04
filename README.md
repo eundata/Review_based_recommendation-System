@@ -42,3 +42,4 @@ Finally, the user continues to log as they are active, and it is added back to <
   <summary><b>Why use pyspark??</b></summary>
 It was used to process large amounts of data. This article used only 100,000 data, but originally intended to use 50 million data.
 </details>
+
