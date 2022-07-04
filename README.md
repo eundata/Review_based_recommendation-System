@@ -15,7 +15,7 @@ This article describes only the part I performed
 - Review data is applied to the recommendation system after sentiment analysis using the BERT model and scoring.  
 - The general recommendation is to use the Alternating Least Square (ALS) Matrix Factorization in collaborative filtering.  
 
-First, we use the <a href = "https://github.com/eundata/Recommendation-System/blob/main/BERT.py">BERT</a> to give a score for the review. Scores range from 1 to 5 points. Then, after averaging the user-given score and review score, the final score is made. After that, the model is trained with <a href = "https://colab.research.google.com/drive/1c61kuUElz8g9N0YpC10Zp0OjYuQJqzHy?usp=sharing"> the final score</a> to make the ALS recommendation model.
+First, we use the <a href = "https://github.com/eundata/Recommendation-System/blob/main/BERT.py">BERT</a> to give a score for the review. Scores range from 1 to 5 points. Then, after averaging the user-given score and review score, <a href = "https://colab.research.google.com/drive/1c61kuUElz8g9N0YpC10Zp0OjYuQJqzHy?usp=sharing"> the final score</a> is made. After that, the model is trained with the final score to make the ALS recommendation model.
 
 Second, through membership registration, we obtained information of which books that users are interested in. In the membership registration, users are given a list of 30 books with many reviews and are asked to choose about 3 of their favorite books. Then, using the <a href='https://github.com/eundata/Recommendation-System/blob/main/Cosine_Similarity.py'>cosine similarity</a>, a book with a high similarity to the book selected by the user is recommended.  
 <details>
