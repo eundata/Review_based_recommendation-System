@@ -43,3 +43,12 @@
 스파크는 대용량 데이터를 처리하는 데에 사용됩니다. 이 글에서는 10만개의 데이터가 사용되었으나, 목표로 했던 데이터는 5000만개였습니다. 하지만 시간부족으로 실패했고 65만개 까지는 성공했습니다.
 </details>
 
+## 피드백
+1. 5000만건의 데이터를 분석하지 못 했습니다. AWS에서 sagemaker의 성능을 올리면 될거라 생각했지만 일정량 이상부터는 마스터노드와 코어를 좋은 성능으로 늘려도 효과가 없었습니다. 조사를 해보니 코드 내에서 더 정밀한 작업이 필요함을 알았고(<a href="https://tech.kakao.com/2021/10/08/spark-shuffle-partition/">링크</a>)쿼리와 파라미터를 조정해야함을 알게 되었습니다.
+2. AWS에서 pyspark를 이용하려면 아마존의 EMR서비스를 이용해야하는데 여기에서 sagemaker를 만들고 나니 람다 서비스에 이용할 방법의 자료가 너무 없었습니다. 람다서비스를 이용하려면 EC2에 있는 sagemaker에서 이용하는 것이 편한것 같았습니다.
+3. AWS에서는 많은것이 까다롭습니다. EMR에서는 pandas를 사용할 수 없었고 EC2 sagemaker에서는 pyspark를 사용할 수 없었습니다. 
+
+## 참고 자료
+1. BERT <a href = "https://colab.research.google.com/drive/1PHv-IRLPCtv7oTcIGbsgZHqrB5LPvB7S">(링크)</a>
+2. 코사인 유사도(링크못찾음)
+3. ALS모델 <a href = "https://techblog-history-younghunjo1.tistory.com/161">(링크)</a>
