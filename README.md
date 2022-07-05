@@ -36,10 +36,11 @@ We plan to use the ALS recommendation model for UBCF. However, the cosine simila
 So, the book is recommended as shown in the picture below.
 ![화면 캡처 2022-05-29 162503](https://user-images.githubusercontent.com/96279383/177165927-1d29ca4e-ed31-4ff9-9771-ccece4ba05f3.png)
 
-Finally, the user continues to log as they are active, and it is added back to <a href="ALS_recommendation_model.py">the ALS recommendation model,</a> and MLOps is implemented through repetition of this.
+Finally, the user continues to log as they are active, and it is added back to <a href="ALS_recommendation_model.py">the ALS recommendation model,</a> 
+It will be retrained, and the trained <a href="">model is saved and served</a> again, and recommendations are made through aws lambda service. MLOps is implemented through repetition of this.
 
 <details>
-  <summary><b>Why use pyspark??</b></summary>
-It was used to process large amounts of data. This article used only 100,000 data, but originally intended to use 50 million data.
+  <summary><b>Why use pyspark?</b></summary>
+It was used to process large amounts of data. This article used only 100,000 data, but originally intended to use 50 million data. We succeeded up to 650,000 data
 </details>
 
